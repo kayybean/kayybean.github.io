@@ -1,0 +1,93 @@
+/* All your custom styles go here. You can override the default Bootstrap styles or add your own custom styles for elements, classes, or IDs.  */
+
+.container {
+    color: black; 
+    width: 100%;
+    background-color: #FEE19F;
+}
+
+.height {
+    height: 100%;
+    border-radius: 7%;
+}
+
+.donate {
+    display: flex;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.donationtitle {
+    background-color: #F2AA02;
+    border-radius: 30px 30px 0px 0px;
+}
+
+hr {    
+    border-top: 1.5px solid #F2AA02;
+}
+
+.beansbees {
+    padding: 15px;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.iconcredit {
+    display: flex;
+    align-items: flex-end;
+}
+
+.navipad {
+    padding-right: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .navipad {
+        background-color: #B7DDE0;
+    }
+}
+
+.btn {
+    background-color: #B7DDE0;
+    color:black !important;
+    
+}
+
+.btn a {
+    color:black !important;
+}
+
+.btn:hover a {
+    color: white !important;
+}
+
+.pad {
+    padding: 10px;
+}
+
+.clover {
+    color: violet;
+}
+
+.rosemary {
+    color: darkseagreen;
+}
+
+.honeysuckle {
+    color: palegoldenrod;
+}
+
+.lavendar {
+    color: rgb(204, 199, 252);
+}
+
+.plain {
+    color: rgb(255, 208, 0);
+}
+
+.kiwi {
+    font-family: 'Kiwi Maru', serif;
+}
+
+.rubik {
+    font-family: 'Rubik', sans-serif;
+}
