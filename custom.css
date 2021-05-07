@@ -1,5 +1,19 @@
 /* All your custom styles go here. You can override the default Bootstrap styles or add your own custom styles for elements, classes, or IDs.  */
 
+body {
+    background-color: #fee19fc2;
+}
+
+.pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paint {
+    width: 100vw;
+}
+
 .container {
     color: black; 
     width: 100%;
